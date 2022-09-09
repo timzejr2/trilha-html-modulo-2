@@ -26,6 +26,8 @@ body {
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    display: block;
+    margin: auto;
 }
 .content {
     background-color: white;
@@ -35,4 +37,46 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+    text-align: center;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color:aliceblue;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    color: aliceblue;
+    background-color: black;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  fieldset {
+    border-radius: 10px;
+  }
+
+  div {
+    margin-top: 5px;
+  }
